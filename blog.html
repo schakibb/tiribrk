@@ -96,6 +96,7 @@
 </head>
 
 <body class="font-body antialiased">
+  <!-- Navigation -->
   <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 lg:py-5 py-3">
     <div class="container mx-auto px-4 flex justify-between items-center">
       <!-- Logo -->
@@ -164,7 +165,6 @@
     </div>
   </nav>
 
-  <!-- Fixed mobile menu with proper z-index and positioning -->
   <!-- Mobile Menu -->
   <div id="mobile-menu" class="fixed inset-0 z-[60] lg:hidden hidden">
     <div class="absolute inset-0 bg-black/50 backdrop-blur-sm" id="mobile-menu-backdrop"></div>
@@ -199,968 +199,176 @@
     </div>
   </div>
 
-  <main class="pt-20">
-
-
-    <section class="relative py-20 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20">
-      <div class="container mx-auto px-4">
-        <div class="max-w-4xl mx-auto text-center">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-display text-gray-900 dark:text-white">
-            <span id="blog-hero-title">Discover Qatar: Where Tradition Meets Innovation</span>
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Blog Header -->
+    <section class="relative py-20 bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20">
+      <div class="container relative z-10">
+        <div class="max-w-4xl mx-auto text-center animate-fade-in mt-12">
+          <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-600 text-white rounded-full mb-6">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
+            </svg>
+          </div>
+          <h1 id="blog-title" class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-display">
+            Discover Arab Cup 2025 in Qatar
           </h1>
-          <p class="text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            <span id="blog-hero-subtitle">Explore the Pearl of the Gulf through our comprehensive guide to Qatar's
-              magnificent attractions, rich culture, and world-class hospitality</span>
+          <p id="blog-subtitle" class="text-gray-600 dark:text-gray-300 text-lg mb-6 max-w-2xl mx-auto">
+            Explore the magnificent stadiums, vibrant culture, and unforgettable experiences awaiting you in Qatar
           </p>
         </div>
       </div>
+
+      <!-- Decorative elements -->
+      <div class="absolute top-0 right-0 w-1/3 h-full opacity-10">
+        <div class="absolute top-10 right-10 w-64 h-64 rounded-full bg-blue-500 blur-3xl"></div>
+        <div class="absolute bottom-10 right-40 w-48 h-48 rounded-full bg-blue-300 blur-3xl"></div>
+      </div>
     </section>
 
-
+    <!-- Blog Content -->
     <section class="py-16 bg-white dark:bg-gray-900">
       <div class="container mx-auto px-4">
         <div class="max-w-6xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 font-display">
-              <span id="video-section-title">FIFA World Cup 2022: The Best World Cup in History</span>
-            </h2>
-            <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              <span id="video-section-subtitle">أثبتت قطر جدارتها في تنظيم أعظم الأحداث الرياضية العالمية بمستوى تنظيمي
-                لا مثيل له</span>
-            </p>
-          </div>
-
-          <div class="relative w-full h-0 pb-[56.25%] rounded-xl overflow-hidden shadow-2xl mb-8">
-            <iframe src="https://www.youtube.com/embed/2sp3q_JnH-8" title="FIFA World Cup 2022 Highlights"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen class="absolute top-0 left-0 w-full h-full">
-            </iframe>
-          </div>
-
-          <div class="text-center">
-            <h3 class="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-              <span id="video-description-title">Qatar: The Perfect Host Nation</span>
-            </h3>
-            <p class="text-lg text-gray-600 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
-              <span id="video-description">From the iconic World Cup 2022 to the legendary Arab Cup 2021, Qatar has
-                proven itself as the ultimate destination for world-class sporting events</span>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="py-16 bg-white dark:bg-gray-900">
-      <div class="container mx-auto px-4">
-        <div class="max-w-6xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 font-display">
-              كأس العرب 2025: حدث تاريخي جديد
-            </h2>
-            <div class="w-24 h-1 bg-blue-600 mx-auto mb-6"></div>
-            <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              من 1 إلى 18 ديسمبر 2025، ستشهد قطر أكبر تجمع رياضي عربي على أرضها
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-            <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 border border-gray-200 dark:border-gray-700">
-              <div class="flex items-center space-x-3 mb-6">
-                <div class="w-12 h-12 bg-blue-50 dark:bg-blue-900/20 rounded-full flex items-center justify-center">
-                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M8 7V3a2 2 0 012-2h4a2 2 0 012 2v4m-6 4v10m6-10v10m-6-4h6"></path>
-                  </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 dark:text-white">موعد البطولة</h3>
-              </div>
-              <p class="text-gray-600 dark:text-gray-300 mb-4">
-                ستقام البطولة من <strong class="text-blue-600">1 ديسمبر حتى 18 ديسمبر 2025</strong>،
-                في أجواء شتوية مثالية تتراوح بين 20-28 درجة مئوية.
-              </p>
-              <p class="text-sm text-gray-500 dark:text-gray-400">
-                أفضل وقت في السنة للاستمتاع بالطقس المعتدل والأنشطة الخارجية في قطر.
-              </p>
-            </div>
-
-            <div class="bg-white dark:bg-gray-800 rounded-2xl p-8 border border-gray-200 dark:border-gray-700">
-              <div class="flex items-center space-x-3 mb-6">
-                <div class="w-12 h-12 bg-blue-50 dark:bg-blue-900/20 rounded-full flex items-center justify-center">
-                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9">
-                    </path>
-                  </svg>
-                </div>
-                <h3 class="text-xl font-bold text-gray-900 dark:text-white">الدول المشاركة</h3>
-              </div>
-              <p class="text-gray-600 dark:text-gray-300 mb-4">
-                ستشارك <strong class="text-blue-600">16 دولة عربية</strong> في هذا الحدث التاريخي،
-                مما يجعله أكبر تجمع رياضي عربي.
-              </p>
-              <p class="text-sm text-gray-500 dark:text-gray-400">
-                تنافس شريف بين أفضل المنتخبات العربية لحصد لقب البطولة.
-              </p>
-            </div>
-          </div>
-
-          <!-- Participating Countries -->
-          <div class="bg-gray-50 dark:bg-gray-800 rounded-2xl p-8">
-            <h4 class="text-xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-              الدول العربية المشاركة
-            </h4>
-            <div id="arab-countries" class="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <!-- Countries will be populated by JavaScript -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="py-16 bg-gradient-to-br from-emerald-50 to-teal-50 dark:from-emerald-900/20 dark:to-teal-900/20">
-      <div class="container mx-auto px-4">
-        <div class="max-w-6xl mx-auto">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 class="text-3xl md:text-4xl font-bold mb-6 font-display text-gray-900 dark:text-white">
-                <span id="arab-cup-title">قطر: خبرة عالمية في تنظيم الأحداث الكبرى</span>
+          
+          <!-- Introduction -->
+          <div class="mb-16 animate-fade-in">
+            <div class="bg-white/70 dark:bg-black/30 backdrop-blur-lg border border-white/20 dark:border-white/10 rounded-2xl shadow-lg p-8">
+              <h2 id="intro-title" class="text-3xl md:text-4xl font-bold mb-6 font-display text-center">
+                Welcome to the Heart of Arab Football
               </h2>
-              <p class="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                <span id="arab-cup-description">تستعد قطر لاستضافة كأس العرب 2025، مؤكدة مكانتها كوجهة رائدة لأعظم
-                  الأحداث الرياضية في العالم</span>
+              <p id="intro-description" class="text-gray-600 dark:text-gray-300 text-lg leading-relaxed text-center mb-8">
+                The Arab Cup 2025 in Qatar promises to be an extraordinary celebration of Arab football, culture, and unity. Join us as we explore the magnificent venues, rich heritage, and incredible experiences that await you in this remarkable tournament.
               </p>
-
-              <div class="space-y-4 mb-8">
-                <div class="flex items-start space-x-3 rtl:space-x-reverse">
-                  <div class="w-2 h-2 bg-emerald-600 rounded-full mt-3 flex-shrink-0"></div>
-                  <p class="text-gray-600 dark:text-gray-300">
-                    <span id="arab-cup-point-1">استضافة ناجحة لكأس العالم FIFA 2022 بأعلى معايير التنظيم</span>
-                  </p>
+              
+              <!-- Key Stats -->
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-blue-600 mb-2">16</div>
+                  <div id="stat-teams" class="text-sm text-gray-600 dark:text-gray-300">Teams</div>
                 </div>
-                <div class="flex items-start space-x-3 rtl:space-x-reverse">
-                  <div class="w-2 h-2 bg-emerald-600 rounded-full mt-3 flex-shrink-0"></div>
-                  <p class="text-gray-600 dark:text-gray-300">
-                    <span id="arab-cup-point-2">تجربة استثنائية في كأس العرب 2021 أبهرت العالم</span>
-                  </p>
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-blue-600 mb-2">8</div>
+                  <div id="stat-stadiums" class="text-sm text-gray-600 dark:text-gray-300">Stadiums</div>
                 </div>
-                <div class="flex items-start space-x-3 rtl:space-x-reverse">
-                  <div class="w-2 h-2 bg-emerald-600 rounded-full mt-3 flex-shrink-0"></div>
-                  <p class="text-gray-600 dark:text-gray-300">
-                    <span id="arab-cup-point-3">بنية تحتية متطورة وملاعب عالمية المستوى</span>
-                  </p>
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-blue-600 mb-2">32</div>
+                  <div id="stat-matches" class="text-sm text-gray-600 dark:text-gray-300">Matches</div>
+                </div>
+                <div class="text-center">
+                  <div class="text-3xl font-bold text-blue-600 mb-2">18</div>
+                  <div id="stat-days" class="text-sm text-gray-600 dark:text-gray-300">Days</div>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <button
-                class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:shadow-lg">
-                <span id="arab-cup-cta">اكتشف المزيد عن كأس العرب 2025</span>
+          <!-- Stadiums Section -->
+          <div class="mb-16 animate-fade-in" style="animation-delay: 200ms">
+            <div class="text-center mb-12">
+              <h2 id="stadiums-title" class="text-3xl md:text-4xl font-bold mb-4 font-display">
+                Magnificent Stadiums
+              </h2>
+              <p id="stadiums-subtitle" class="text-gray-600 dark:text-gray-300 text-lg max-w-3xl mx-auto">
+                Discover the world-class venues that will host the Arab Cup 2025, each a masterpiece of modern architecture and engineering
+              </p>
+            </div>
+
+            <!-- Stadium Gallery -->
+            <div id="stadium-gallery" class="space-y-12">
+              <!-- Stadium cards will be populated by JavaScript -->
+            </div>
+          </div>
+
+          <!-- Culture Section -->
+          <div class="mb-16 animate-fade-in" style="animation-delay: 400ms">
+            <div class="bg-gradient-to-r from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 rounded-2xl p-8 md:p-12">
+              <div class="text-center mb-12">
+                <h2 id="culture-title" class="text-3xl md:text-4xl font-bold mb-4 font-display">
+                  Qatari Culture & Heritage
+                </h2>
+                <p id="culture-subtitle" class="text-gray-600 dark:text-gray-300 text-lg max-w-3xl mx-auto">
+                  Immerse yourself in the rich traditions, warm hospitality, and vibrant culture of Qatar
+                </p>
+              </div>
+
+              <!-- Culture Gallery -->
+              <div id="culture-gallery" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+                <!-- Culture images will be populated by JavaScript -->
+              </div>
+
+              <div class="text-center">
+                <button id="culture-see-more" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 inline-flex items-center gap-2">
+                  <span id="culture-see-more-text">See More Cultural Experiences</span>
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tourism Attractions -->
+          <div class="mb-16 animate-fade-in" style="animation-delay: 600ms">
+            <div class="text-center mb-12">
+              <h2 id="attractions-title" class="text-3xl md:text-4xl font-bold mb-4 font-display">
+                Must-Visit Attractions
+              </h2>
+              <p id="attractions-subtitle" class="text-gray-600 dark:text-gray-300 text-lg max-w-3xl mx-auto">
+                From modern marvels to traditional souks, Qatar offers an incredible array of experiences for every traveler
+              </p>
+            </div>
+
+            <!-- Attractions Grid -->
+            <div id="attractions-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Attraction cards will be populated by JavaScript -->
+            </div>
+          </div>
+
+          <!-- Arab Countries Participation -->
+          <div class="mb-16 animate-fade-in" style="animation-delay: 800ms">
+            <div class="bg-white/70 dark:bg-black/30 backdrop-blur-lg border border-white/20 dark:border-white/10 rounded-2xl shadow-lg p-8">
+              <div class="text-center mb-8">
+                <h2 id="participating-title" class="text-3xl md:text-4xl font-bold mb-4 font-display">
+                  Participating Arab Nations
+                </h2>
+                <p id="participating-subtitle" class="text-gray-600 dark:text-gray-300 text-lg">
+                  Celebrating unity and passion across the Arab world
+                </p>
+              </div>
+
+              <div id="arab-countries" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                <!-- Arab countries will be populated by JavaScript -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Call to Action -->
+          <div class="text-center animate-fade-in" style="animation-delay: 1000ms">
+            <div class="bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl p-8 md:p-12 text-white">
+              <h2 id="cta-blog-title" class="text-3xl md:text-4xl font-bold mb-4 font-display">
+                Ready to Experience Arab Cup 2025?
+              </h2>
+              <p id="cta-blog-description" class="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
+                Don't miss this historic tournament. Book your Qatar adventure today and be part of football history!
+              </p>
+              
+              <button id="discover-more-arab-cup" class="bg-white text-blue-600 hover:bg-blue-50 px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 hover:shadow-xl hover:scale-105 inline-flex items-center gap-3">
+                <span id="discover-more-text">اكتشف المزيد عن كأس العرب 2025</span>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
               </button>
             </div>
-
-            <div class="relative">
-              <img
-                src="https://d12eu00glpdtk2.cloudfront.net/public/images/news/fifa-arab-cup-qatar-2025-1-18-december-doha/fifa-arab-cup-2025-doha-qatar.jpeg"
-                alt="Arab Cup 2025 Qatar" class="w-full h-96 object-cover rounded-xl shadow-2xl">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl"></div>
-            </div>
           </div>
+
         </div>
-      </div>
-    </section>
-
-    <section class="py-16 bg-white dark:bg-gray-900">
-      <div class="container mx-auto px-4">
-        <div class="max-w-7xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900 dark:text-white">
-              Discover Qatar: Beyond Football
-            </h2>
-            <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Experience the rich culture, stunning architecture, and warm hospitality that make Qatar a world-class
-              destination
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
-            <!-- Souq Waqif -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/tourist-places-in-qatar-3.jpg"
-                alt="Souq Waqif"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  سوق واقف
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  سوق تقليدي نابض بالحياة في قلب الدوحة، يضم متاجر للحرف اليدوية والتوابل والمطاعم الأصيلة
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  Located in the heart of Doha
-                </p>
-              </div>
-            </article>
-
-            <!-- Museum of Islamic Art -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img
-                src="https://b1858819.smushcdn.com/1858819/wp-content/uploads/2025/01/Museum-of-Islamic-Art-Architecture-Doha-Qatar-scaled.jpg"
-                alt="Museum of Islamic Art"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  متحف الفن الإسلامي
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  تحفة معمارية تضم مجموعة رائعة من الفن الإسلامي تمتد لأكثر من 1400 عام، صممه المعماري الشهير آي إم بي
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  Designed by I.M. Pei
-                </p>
-              </div>
-            </article>
-
-            <!-- The Pearl Qatar -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/tourist-places-in-qatar-1.jpeg"
-                alt="The Pearl Qatar"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  جزيرة اللؤلؤة
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  جزيرة اصطناعية فاخرة تضم مجموعة من المتاجر والمطاعم والفنادق الراقية مع مرسى خاص وشواطئ رملية
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  Located on northern shore of Doha
-                </p>
-              </div>
-            </article>
-
-            <!-- National Museum of Qatar -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/tourist-places-in-qatar-2-1024x427.jpg"
-                alt="National Museum of Qatar"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  متحف قطر الوطني
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  متحف مذهل يحكي قصة قطر من الماضي إلى المستقبل بتصميم يشبه وردة الصحراء، صممه جان نوفيل
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  Known as the "Desert Rose"
-                </p>
-              </div>
-            </article>
-
-            <!-- Katara Cultural Village -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img
-                src="https://b1858819.smushcdn.com/1858819/wp-content/uploads/2024/12/Katara-Cultural-Village-Mosque-Doha-Qatar-scaled.jpg"
-                alt="Katara Cultural Village"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  قرية كتارا الثقافية
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  مركز ثقافي يضم مسارح ومعارض فنية ومطاعم في بيئة معمارية خلابة مع مسجد مزين بفسيفساء معقدة
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  Cultural hub with opera house
-                </p>
-              </div>
-            </article>
-
-            <!-- Doha Corniche -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/tourist-places-in-qatar-6-1024x680.jpg"
-                alt="Doha Corniche"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  كورنيش الدوحة
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  ممشى ساحلي خلاب يمتد لسبعة كيلومترات مع إطلالات رائعة على أفق المدينة ونصب اللؤلؤة التذكاري
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  7km waterfront promenade
-                </p>
-              </div>
-            </article>
-
-            <!-- Al Khor Corniche -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/tourist-places-in-qatar-4-1024x575.jpg"
-                alt="Al Khor Corniche"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  كورنيش الخور
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  وجهة سياحية شعبية للعائلات مع أنشطة ترفيهية متنوعة وشواطئ رملية للاسترخاء
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  Located in Al Khor city
-                </p>
-              </div>
-            </article>
-
-            <!-- Al Koot Fort -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/tourist-places-in-qatar-5.jpg"
-                alt="Al Koot Fort"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  قلعة الكوت
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  قلعة تاريخية بناها الشيخ عبدالله بن جاسم آل ثاني عام 1927، تحولت إلى متحف يعرض التراث القطري
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  Built in 1927, now a museum
-                </p>
-              </div>
-            </article>
-
-            <!-- Aspire Park -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/tourist-places-in-qatar-8.jpg"
-                alt="Aspire Park"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  حديقة أسباير
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  أكبر حديقة في قطر تمتد على 880,000 متر مربع، وجهة مثالية للنزهات العائلية والأنشطة الرياضية
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  Largest park in Qatar
-                </p>
-              </div>
-            </article>
-
-            <!-- Aqua Park Qatar -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/tourist-places-in-qatar-9-1-1024x427.jpg"
-                alt="Aqua Park Qatar"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  أكوا بارك قطر
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  أول مدينة مائية في قطر تضم 15 لعبة مائية مناسبة لجميع الأعمار مع مسبح أمواج ونهر مائي
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  First water park in Qatar
-                </p>
-              </div>
-            </article>
-
-            <!-- Banana Island -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/tourist-places-in-qatar-10-1024x680.jpg"
-                alt="Banana Island"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  جزيرة الموز
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  جزيرة فاخرة تضم منتجع أناناتارا مع أنشطة مائية وبرية متنوعة وملاعب جولف وسينمات
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  20-minute journey from mainland
-                </p>
-              </div>
-            </article>
-
-            <!-- Qanat Quartier -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img
-                src="https://b1858819.smushcdn.com/1858819/wp-content/uploads/2024/12/Qanat-Quartier-Things-to-do-in-Doha-Qatar-scaled.jpg"
-                alt="Qanat Quartier"
-                class="w-full h-56 md:h-64 object-cover hover:scale-105 transition-transform duration-300">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  حي قناة
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-2">
-                  حي مستوحى من البندقية بمبانٍ ملونة وقنوات مائية وجسر يشبه جسر ريالتو الشهير
-                </p>
-                <p class="text-xs text-gray-500 dark:text-gray-400">
-                  Venice-inspired architecture
-                </p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-16 bg-gradient-to-br from-gray-50 to-blue-50 dark:from-gray-800 dark:to-blue-900/20">
-      <div class="container mx-auto px-4">
-        <div class="max-w-6xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900 dark:text-white">
-              <span id="hotels-title">فنادق قطر الفاخرة</span>
-            </h2>
-            <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              <span id="hotels-subtitle">استمتع بالضيافة القطرية الأصيلة في أفخم الفنادق والمنتجعات</span>
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Raffles Doha -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar1.jpg"
-                alt="Raffles Doha" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">فندق رافلز قطر</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">فندق فاخر جديد في مدينة لوسيل
-                  يوفر إطلالات خلابة وتجربة ملكية استثنائية</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>مدينة لوسيل، المارينا</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- DoubleTree by Hilton -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar2.jpg"
-                alt="DoubleTree by Hilton" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">دبل تري باي هيلتون الدوحة</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">فندق خمس نجوم فاخر مع إطلالات
-                  بحرية ساحرة وثلاثة مطاعم متنوعة</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>شارع الميناء</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- AlRayyan Hotel Qatar Mall -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2024/01/the-most-beautiful-hotels-in-qatar-3.jpg"
-                alt="AlRayyan Hotel Qatar Mall" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">الريان قطر مول</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">وجهة مثالية لإقامة رومانسية مع
-                  إطلالات ساحرة وثلاثة مسابح</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>مول قطر - الريان</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Warwick Doha -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/11/the-most-beautiful-hotels-in-qatar3.jpg"
-                alt="Warwick Doha" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">وارويك الدوحة</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">فندق فاخر خمس نجوم يتميز
-                  بخدماته العالمية ومرافقه الباهظة</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>شارع الريان، السد</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Waldorf Astoria Lusail -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar-5.jpg"
-                alt="Waldorf Astoria Lusail" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">والدورف أستوريا لوسيل</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">246 غرفة وجناحاً فاخراً مع
-                  إطلالات خلابة على الخليج العربي</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>بوليفارد دمسة، اللؤلؤة</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Park Hyatt Doha -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2024/01/the-most-beautiful-hotels-in-qatar-6.jpg"
-                alt="Park Hyatt Doha" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">بارك حياة قطر</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">187 غرفة وجناح فسيح قرب سوق
-                  واقف مع مطعم على السطح</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>سكة وادي، المشيرب</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Mandarin Oriental -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar-7.jpg"
-                alt="Mandarin Oriental Doha" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">ماندارين أورينتال قطر</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">أحد أفخم فنادق قطر مع إطلالات
-                  خلابة على الخليج العربي</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>شارع برحات المشيرب</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Al Najada Doha Hotel -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/11/the-most-beautiful-hotels-in-qatar7.jpg"
-                alt="Al Najada Doha Hotel" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">النجادة الدوحة تيفولي</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">151 غرفة وجناح مع مزيج من
-                  العمارة القطرية والحديثة</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>برحات الجفيري، النجادة</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Mondrian Doha -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/11/the-most-beautiful-hotels-in-qatar8.jpg"
-                alt="Mondrian Doha" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">موندريان الدوحة</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">211 غرفة وجناح مع مزيج فريد من
-                  العناصر الحديثة والتقليدية</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>شارع ويست باي لاجونا</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Sheraton Grand Doha -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar-10.jpg"
-                alt="Sheraton Grand Doha" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">شيراتون الدوحة</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">فندق فاخر على البحر مع 7 مطاعم
-                  عالمية وحديقة مائية</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>شارع الكورنيش، الخليج الغربي</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Four Seasons Doha -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar-11.jpg"
-                alt="Four Seasons Doha" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">فور سيزونز الدوحة</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">فندق عائلي مرموق بتصاميم فاخرة
-                  وإطلالات بحرية خلابة</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>كورنيش الدوحة</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- St. Regis Marsa Arabia -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img
-                src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar-12-1024x768.jpg"
-                alt="St. Regis Marsa Arabia" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">سانت ريجيس مرسى عربية</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">أحد أفضل فنادق الخمس نجوم مع 9
-                  مطاعم ومرافق ترفيهية متنوعة</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>جزيرة مرسى عربية، اللؤلؤة</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Rixos Gulf Hotel Doha -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar13.jpg"
-                alt="Rixos Gulf Hotel Doha" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">ريكسوس الخليج قطر</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">فندق جديد على البحر بموقع
-                  استراتيجي وإطلالات رومانسية</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>رأس أبو عبود، منطقة المطار</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Fairmont Doha -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar-14.jpg"
-                alt="Fairmont Doha" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">فيرمونت قطر</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">تجربة لا مثيل لها من الفخامة
-                  والمتعة مع سبا متكامل ومرافق حديثة</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>شارع 6، المارينا، لوسيل</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- The Chedi Katara -->
-            <article
-              class="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2023/05/the-most-beautiful-hotels-in-qatar-15.jpg"
-                alt="The Chedi Katara" class="w-full h-64 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">تشيدي كتارا</h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-4">ملاذ فاخر في قلب الدوحة يجمع
-                  بين الأناقة العربية والراحة الحديثة</p>
-                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                  </svg>
-                  <span>شارع شكسبير، كتارا</span>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="py-16 bg-white dark:bg-gray-900">
-      <div class="container mx-auto px-4">
-        <div class="max-w-6xl mx-auto">
-          <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4 font-display text-gray-900 dark:text-white">
-              <span id="stadiums-title">ملاعب قطر العالمية</span>
-            </h2>
-            <p class="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              <span id="stadiums-subtitle">اكتشف الملاعب الرائعة التي استضافت كأس العالم 2022 وستستضيف كأس العرب
-                2025</span>
-            </p>
-          </div>
-
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- Al Bayt Stadium -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/world-cup-stadiums-in-qatar-1-1-1024x576.jpg"
-                alt="Al Bayt Stadium" class="w-full h-48 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  <span id="al-bayt-title">استاد البيت</span>
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-3">
-                  <span id="al-bayt-description">تصميم مستوحى من الخيمة العربية التقليدية، استضاف المباراة
-                    الافتتاحية</span>
-                </p>
-                <div class="flex items-center justify-between text-sm">
-                  <span class="text-blue-600 font-medium">السعة: 60,000</span>
-                  <span class="text-gray-500 dark:text-gray-400">الخور</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Lusail Stadium -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/world-cup-stadiums-in-qatar-2-1-1024x576.jpg"
-                alt="Lusail Stadium" class="w-full h-48 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  <span id="lusail-title">استاد لوسيل</span>
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-3">
-                  <span id="lusail-description">أكبر ملاعب كأس العالم بسعة 86,000 متفرج، استضاف المباراة النهائية</span>
-                </p>
-                <div class="flex items-center justify-between text-sm">
-                  <span class="text-blue-600 font-medium">السعة: 86,000</span>
-                  <span class="text-gray-500 dark:text-gray-400">مدينة لوسيل</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Al Janoub Stadium -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/world-cup-stadiums-in-qatar-3-1024x663.jpg"
-                alt="Al Janoub Stadium" class="w-full h-48 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  <span id="al-janoub-title">استاد الجنوب</span>
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-3">
-                  <span id="al-janoub-description">تصميم زها حديد المستوحى من أشرعة المراكب التقليدية</span>
-                </p>
-                <div class="flex items-center justify-between text-sm">
-                  <span class="text-blue-600 font-medium">السعة: 40,000</span>
-                  <span class="text-gray-500 dark:text-gray-400">الوكرة</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Education City Stadium -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/world-cup-stadiums-in-qatar-4-1024x576.jpg"
-                alt="Education City Stadium" class="w-full h-48 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  <span id="education-city-title">استاد المدينة التعليمية</span>
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-3">
-                  <span id="education-city-description">واجهة هندسية مذهلة بأنماط هندسية تشبه الماس</span>
-                </p>
-                <div class="flex items-center justify-between text-sm">
-                  <span class="text-blue-600 font-medium">السعة: 40,000</span>
-                  <span class="text-gray-500 dark:text-gray-400">الريان</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Al Thumama Stadium -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/world-cup-stadiums-in-qatar-5-1-1024x576.jpg"
-                alt="Al Thumama Stadium" class="w-full h-48 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  <span id="al-thumama-title">استاد الثمامة</span>
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-3">
-                  <span id="al-thumama-description">تصميم مستوحى من الغحفية، الطاقية العربية التقليدية</span>
-                </p>
-                <div class="flex items-center justify-between text-sm">
-                  <span class="text-blue-600 font-medium">السعة: 40,000</span>
-                  <span class="text-gray-500 dark:text-gray-400">الثمامة</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Khalifa International Stadium -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/world-cup-stadiums-in-qatar-6-1024x580.jpg"
-                alt="Khalifa International Stadium" class="w-full h-48 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  <span id="khalifa-title">استاد خليفة الدولي</span>
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-3">
-                  <span id="khalifa-description">ملعب تاريخي تم تجديده بالكامل، يتميز بأقواسه المزدوجة</span>
-                </p>
-                <div class="flex items-center justify-between text-sm">
-                  <span class="text-blue-600 font-medium">السعة: 45,000</span>
-                  <span class="text-gray-500 dark:text-gray-400">الدوحة</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Ahmad Bin Ali Stadium -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/world-cup-stadiums-in-qatar-7.jpeg"
-                alt="Ahmad Bin Ali Stadium" class="w-full h-48 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  <span id="ahmad-bin-ali-title">استاد أحمد بن علي</span>
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-3">
-                  <span id="ahmad-bin-ali-description">واجهة تعكس موجات الكثبان الرملية، على حافة الصحراء</span>
-                </p>
-                <div class="flex items-center justify-between text-sm">
-                  <span class="text-blue-600 font-medium">السعة: 44,000</span>
-                  <span class="text-gray-500 dark:text-gray-400">الريان</span>
-                </div>
-              </div>
-            </article>
-
-            <!-- Stadium 974 -->
-            <article
-              class="bg-gray-50 dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
-              <img src="https://www.mosafer.to/wp-content/uploads/2022/10/world-cup-stadiums-in-qatar-8-1024x576.webp"
-                alt="Stadium 974" class="w-full h-48 object-cover">
-              <div class="p-6">
-                <h3 class="text-xl font-bold mb-3 text-gray-900 dark:text-white">
-                  <span id="stadium-974-title">استاد 974</span>
-                </h3>
-                <p class="text-gray-600 dark:text-gray-300 text-sm leading-relaxed mb-3">
-                  <span id="stadium-974-description">أول ملعب قابل للفك والتركيب بالكامل في تاريخ كأس العالم</span>
-                </p>
-                <div class="flex items-center justify-between text-sm">
-                  <span class="text-blue-600 font-medium">السعة: 40,000</span>
-                  <span class="text-gray-500 dark:text-gray-400">رأس أبو عبود</span>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="relative py-24 bg-blue-50 dark:bg-blue-900/20">
-      <div class="container">
-        <div class="max-w-3xl mx-auto text-center animate-fade-in">
-          <h2 id="cta-title" class="text-3xl md:text-4xl font-bold mb-6 font-display">
-            Ready for Your Dream Vacation?
-          </h2>
-          <p id="cta-description" class="text-gray-600 dark:text-gray-300 mb-8">
-            Book your Qatar journey now and enjoy the perfect blend of Qatari hospitality, comfort, and stunning Gulf
-            views.
-          </p>
-
-          <!-- Centered button -->
-          <button id="cta-book-now" class="bg-blue-600 hover:bg-blue-700 text-white  
-               transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-[1.02] 
-               rounded-md h-11 px-8 flex items-center justify-center font-medium group 
-               mx-auto">
-            <span id="learn-more-text">Book Now</span>
-            <svg class="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
-        </div>
-      </div>
-
-      <!-- Decorative waves -->
-      <div class="absolute bottom-0 left-0 right-0 h-24 overflow-hidden">
-        <svg class="absolute bottom-0 w-full h-24 fill-white dark:fill-gray-900" preserveAspectRatio="none"
-          viewBox="0 0 1440 74" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M0,37.1L40,34.5C80,32,160,27,240,29.6C320,32,400,42,480,42.9C560,44,640,35,720,32.1C800,30,880,34,960,40.8C1040,47,1120,56,1200,56.6C1280,57,1360,48,1400,43.3L1440,39.1L1440,74L1400,74C1360,74,1280,74,1200,74C1120,74,1040,74,960,74C880,74,800,74,720,74C640,74,560,74,480,74C400,74,320,74,240,74C160,74,80,74,40,74L0,74Z"
-            class="animate-wave opacity-50" />
-          <path
-            d="M0,37.1L40,34.5C80,32,160,27,240,29.6C320,32,400,42,480,42.9C560,44,640,35,720,32.1C800,30,880,34,960,40.8C1040,47,1120,56,1200,56.6C1280,57,1360,48,1400,43.3L1440,39.1L1440,74L1400,74C1360,74,1280,74,1200,74C1120,74,1040,74,960,74C880,74,800,74,720,74C640,74,560,74,480,74C400,74,320,74,240,74C160,74,80,74,40,74L0,74Z"
-            class="animate-wave opacity-100" style="animation-delay: -4s" />
-        </svg>
       </div>
     </section>
 
   </main>
 
+  <!-- Footer -->
   <footer
     class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white pt-12 sm:pt-16 pb-6 sm:pb-8 border-t border-gray-200 dark:border-gray-700">
     <div class="container px-4 sm:px-6 lg:px-8 mx-auto">
@@ -1320,6 +528,24 @@
   <div id="notification-container"
     class="fixed top-16 right-4 z-50 w-full max-w-xs sm:max-w-sm md:max-w-md mx-4 sm:mx-0"></div>
 
+  <!-- Image Modal -->
+  <div id="image-modal" class="fixed inset-0 z-[70] hidden bg-black/90 backdrop-blur-sm">
+    <div class="absolute inset-0 flex items-center justify-center p-4">
+      <div class="relative max-w-4xl max-h-full">
+        <button id="modal-close" class="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors">
+          <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+        <img id="modal-image" src="" alt="" class="max-w-full max-h-full object-contain rounded-lg">
+        <div id="modal-caption" class="absolute bottom-0 left-0 right-0 bg-black/70 text-white p-4 rounded-b-lg">
+          <h3 id="modal-title" class="font-bold text-lg mb-1"></h3>
+          <p id="modal-description" class="text-sm opacity-90"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="./js/translations.js"></script>
   <script src="./js/theme.js"></script>
@@ -1327,8 +553,8 @@
   <script src="./js/navigation.js"></script>
   <script src="./js/forms.js"></script>
   <script src="./js/notifications.js"></script>
-  <script src="./js/main.js"></script>
   <script src="./js/blog.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

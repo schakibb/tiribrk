@@ -298,6 +298,45 @@ const translations = {
       description: "The page you're looking for doesn't exist. Let's get you back home.",
       returnHome: "Return Home"
     }
+    },
+    blog: {
+      title: "Discover Arab Cup 2025 in Qatar",
+      subtitle: "Explore the magnificent stadiums, vibrant culture, and unforgettable experiences awaiting you in Qatar",
+      intro: {
+        title: "Welcome to the Heart of Arab Football",
+        description: "The Arab Cup 2025 in Qatar promises to be an extraordinary celebration of Arab football, culture, and unity. Join us as we explore the magnificent venues, rich heritage, and incredible experiences that await you in this remarkable tournament."
+      },
+      stats: {
+        teams: "Teams",
+        stadiums: "Stadiums", 
+        matches: "Matches",
+        days: "Days"
+      },
+      stadiums: {
+        title: "Magnificent Stadiums",
+        subtitle: "Discover the world-class venues that will host the Arab Cup 2025, each a masterpiece of modern architecture and engineering",
+        seeMore: "See More Images",
+        showLess: "Show Less"
+      },
+      culture: {
+        title: "Qatari Culture & Heritage",
+        subtitle: "Immerse yourself in the rich traditions, warm hospitality, and vibrant culture of Qatar",
+        seeMore: "See More Cultural Experiences"
+      },
+      attractions: {
+        title: "Must-Visit Attractions",
+        subtitle: "From modern marvels to traditional souks, Qatar offers an incredible array of experiences for every traveler"
+      },
+      participating: {
+        title: "Participating Arab Nations",
+        subtitle: "Celebrating unity and passion across the Arab world"
+      },
+      cta: {
+        title: "Ready to Experience Arab Cup 2025?",
+        description: "Don't miss this historic tournament. Book your Qatar adventure today and be part of football history!",
+        discoverMore: "Discover More About Arab Cup 2025"
+      }
+    }
 
   },
   fr: {
@@ -560,6 +599,45 @@ const translations = {
       description: "La page que vous recherchez n'existe pas. Retournons à l'accueil.",
       returnHome: "Retour à l'Accueil"
     }
+    },
+    blog: {
+      title: "Découvrez la Coupe Arabe 2025 au Qatar",
+      subtitle: "Explorez les stades magnifiques, la culture vibrante et les expériences inoubliables qui vous attendent au Qatar",
+      intro: {
+        title: "Bienvenue au Cœur du Football Arabe",
+        description: "La Coupe Arabe 2025 au Qatar promet d'être une célébration extraordinaire du football, de la culture et de l'unité arabes. Rejoignez-nous pour explorer les lieux magnifiques, le riche patrimoine et les expériences incroyables qui vous attendent dans ce tournoi remarquable."
+      },
+      stats: {
+        teams: "Équipes",
+        stadiums: "Stades",
+        matches: "Matchs",
+        days: "Jours"
+      },
+      stadiums: {
+        title: "Stades Magnifiques",
+        subtitle: "Découvrez les lieux de classe mondiale qui accueilleront la Coupe Arabe 2025, chacun étant un chef-d'œuvre d'architecture et d'ingénierie modernes",
+        seeMore: "Voir Plus d'Images",
+        showLess: "Voir Moins"
+      },
+      culture: {
+        title: "Culture et Patrimoine Qataris",
+        subtitle: "Plongez-vous dans les riches traditions, l'hospitalité chaleureuse et la culture vibrante du Qatar",
+        seeMore: "Voir Plus d'Expériences Culturelles"
+      },
+      attractions: {
+        title: "Attractions Incontournables",
+        subtitle: "Des merveilles modernes aux souks traditionnels, le Qatar offre un éventail incroyable d'expériences pour chaque voyageur"
+      },
+      participating: {
+        title: "Nations Arabes Participantes",
+        subtitle: "Célébrant l'unité et la passion à travers le monde arabe"
+      },
+      cta: {
+        title: "Prêt à Vivre la Coupe Arabe 2025?",
+        description: "Ne manquez pas ce tournoi historique. Réservez votre aventure au Qatar aujourd'hui et faites partie de l'histoire du football!",
+        discoverMore: "Découvrez Plus sur la Coupe Arabe 2025"
+      }
+    }
   },
   ar: {
     nav: {
@@ -820,6 +898,45 @@ const translations = {
       title: "عذراً! الصفحة غير موجودة",
       description: "الصفحة التي تبحث عنها غير موجودة. دعنا نعيدك إلى الصفحة الرئيسية.",
       returnHome: "العودة للرئيسية"
+    }
+    },
+    blog: {
+      title: "اكتشف كأس العرب 2025 في قطر",
+      subtitle: "استكشف الملاعب الرائعة والثقافة النابضة بالحياة والتجارب التي لا تُنسى في انتظارك في قطر",
+      intro: {
+        title: "مرحباً بكم في قلب كرة القدم العربية",
+        description: "تعد كأس العرب 2025 في قطر احتفالاً استثنائياً بكرة القدم العربية والثقافة والوحدة. انضموا إلينا لاستكشاف الأماكن الرائعة والتراث الغني والتجارب المذهلة التي تنتظركم في هذه البطولة الرائعة."
+      },
+      stats: {
+        teams: "فرق",
+        stadiums: "ملاعب",
+        matches: "مباريات",
+        days: "أيام"
+      },
+      stadiums: {
+        title: "ملاعب رائعة",
+        subtitle: "اكتشف الأماكن ذات المستوى العالمي التي ستستضيف كأس العرب 2025، كل منها تحفة فنية من العمارة والهندسة الحديثة",
+        seeMore: "شاهد المزيد من الصور",
+        showLess: "عرض أقل"
+      },
+      culture: {
+        title: "الثقافة والتراث القطري",
+        subtitle: "انغمس في التقاليد الغنية والضيافة الدافئة والثقافة النابضة بالحياة في قطر",
+        seeMore: "شاهد المزيد من التجارب الثقافية"
+      },
+      attractions: {
+        title: "المعالم التي يجب زيارتها",
+        subtitle: "من العجائب الحديثة إلى الأسواق التقليدية، تقدم قطر مجموعة مذهلة من التجارب لكل مسافر"
+      },
+      participating: {
+        title: "الدول العربية المشاركة",
+        subtitle: "احتفال بالوحدة والشغف عبر العالم العربي"
+      },
+      cta: {
+        title: "جاهز لتجربة كأس العرب 2025؟",
+        description: "لا تفوت هذه البطولة التاريخية. احجز مغامرتك في قطر اليوم وكن جزءاً من تاريخ كرة القدم!",
+        discoverMore: "اكتشف المزيد عن كأس العرب 2025"
+      }
     }
   }
 };

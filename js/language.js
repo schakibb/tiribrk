@@ -68,6 +68,11 @@ class LanguageManager {
     this.updateServicesPageSection(t);
 
     this.update404Page(t);
+
+    this.updateBlogSection(t);
+
+    // Dispatch language changed event for other components
+    document.dispatchEvent(new CustomEvent('languageChanged', { detail: { language: this.currentLanguage } }));
   }
 
   updateNavigation(t) {
@@ -528,6 +533,38 @@ class LanguageManager {
     }
   }
 
+  updateBlogSection(t) {
+    if (!t.blog) return;
+
+    // Update blog page elements
+    const elements = {
+      'blog-title': t.blog.title,
+      'blog-subtitle': t.blog.subtitle,
+      'intro-title': t.blog.intro.title,
+      'intro-description': t.blog.intro.description,
+      'stat-teams': t.blog.stats.teams,
+      'stat-stadiums': t.blog.stats.stadiums,
+      'stat-matches': t.blog.stats.matches,
+      'stat-days': t.blog.stats.days,
+      'stadiums-title': t.blog.stadiums.title,
+      'stadiums-subtitle': t.blog.stadiums.subtitle,
+      'culture-title': t.blog.culture.title,
+      'culture-subtitle': t.blog.culture.subtitle,
+      'culture-see-more-text': t.blog.culture.seeMore,
+      'attractions-title': t.blog.attractions.title,
+      'attractions-subtitle': t.blog.attractions.subtitle,
+      'participating-title': t.blog.participating.title,
+      'participating-subtitle': t.blog.participating.subtitle,
+      'cta-blog-title': t.blog.cta.title,
+      'cta-blog-description': t.blog.cta.description,
+      'discover-more-text': t.blog.cta.discoverMore
+    };
+
+    Object.entries(elements).forEach(([id, text]) => {
+      const element = document.getElementById(id);
+      if (element) element.textContent = text;
+    });
+  }
 updateDetailedServicesGrid(t) {
     const detailedServicesGrid = document.getElementById('detailed-services-grid');
     if (!detailedServicesGrid || !t.services.items) return;
